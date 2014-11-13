@@ -17,6 +17,6 @@ Menubar icon made by `Freepik`_  via `flaticon`_ and is licensed under `CC BY 3.
 
 .. _Freepik : http://www.freepik.com
 
-.. _Flaticon.com : http://www.flaticon.com
+.. _flaticon : http://www.flaticon.com
 
 .. _CC BY 3.0 : http://creativecommons.org/licenses/by/3.0/
