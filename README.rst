@@ -3,6 +3,9 @@ OS-X-Spaces-Buttons
 
 Two simple apps that live in OS X's menu bar and facilitate switching spaces with just the mouse.
 
+These apps are in .zip files, and can also be build in XCode (version 6.1
+was used).
+
 These can be added to run at startup, and will appear as icons in the menubar at the top of a screen in OS X.
 
 Sources
