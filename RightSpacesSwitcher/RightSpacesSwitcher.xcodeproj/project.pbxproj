@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1599DF1A1527150084AA60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1599DE1A1527150084AA60 /* AppDelegate.m */; };
+		CD1599E11A1527150084AA60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1599E01A1527150084AA60 /* main.m */; };
+		CD1599E31A1527150084AA60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1599E21A1527150084AA60 /* Images.xcassets */; };
+		CD1599E61A1527150084AA60 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1599E41A1527150084AA60 /* MainMenu.xib */; };
+		CD1599F21A1527150084AA60 /* RightSpacesSwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1599F11A1527150084AA60 /* RightSpacesSwitcherTests.m */; };
+		CD1599FC1A1527540084AA60 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1599FB1A1527540084AA60 /* right.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1599EC1A1527150084AA60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1599D01A1527150084AA60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1599D71A1527150084AA60;
+			remoteInfo = RightSpacesSwitcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1599D81A1527150084AA60 /* RightSpacesSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RightSpacesSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1599DC1A1527150084AA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1599DD1A1527150084AA60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1599DE1A1527150084AA60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1599E01A1527150084AA60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1599E21A1527150084AA60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD1599E51A1527150084AA60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD1599EB1A1527150084AA60 /* RightSpacesSwitcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RightSpacesSwitcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1599F01A1527150084AA60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1599F11A1527150084AA60 /* RightSpacesSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightSpacesSwitcherTests.m; sourceTree = "<group>"; };
+		CD1599FB1A1527540084AA60 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right.png; path = ../../../Desktop/right.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1599D51A1527150084AA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1599E81A1527150084AA60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1599CF1A1527150084AA60 = {
+			isa = PBXGroup;
+			children = (
+				CD1599DA1A1527150084AA60 /* RightSpacesSwitcher */,
+				CD1599EE1A1527150084AA60 /* RightSpacesSwitcherTests */,
+				CD1599D91A1527150084AA60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1599D91A1527150084AA60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1599D81A1527150084AA60 /* RightSpacesSwitcher.app */,
+				CD1599EB1A1527150084AA60 /* RightSpacesSwitcherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1599DA1A1527150084AA60 /* RightSpacesSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				CD1599FB1A1527540084AA60 /* right.png */,
+				CD1599DD1A1527150084AA60 /* AppDelegate.h */,
+				CD1599DE1A1527150084AA60 /* AppDelegate.m */,
+				CD1599E21A1527150084AA60 /* Images.xcassets */,
+				CD1599E41A1527150084AA60 /* MainMenu.xib */,
+				CD1599DB1A1527150084AA60 /* Supporting Files */,
+			);
+			path = RightSpacesSwitcher;
+			sourceTree = "<group>";
+		};
+		CD1599DB1A1527150084AA60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1599DC1A1527150084AA60 /* Info.plist */,
+				CD1599E01A1527150084AA60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD1599EE1A1527150084AA60 /* RightSpacesSwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1599F11A1527150084AA60 /* RightSpacesSwitcherTests.m */,
+				CD1599EF1A1527150084AA60 /* Supporting Files */,
+			);
+			path = RightSpacesSwitcherTests;
+			sourceTree = "<group>";
+		};
+		CD1599EF1A1527150084AA60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1599F01A1527150084AA60 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1599D71A1527150084AA60 /* RightSpacesSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1599F51A1527150084AA60 /* Build configuration list for PBXNativeTarget "RightSpacesSwitcher" */;
+			buildPhases = (
+				CD1599D41A1527150084AA60 /* Sources */,
+				CD1599D51A1527150084AA60 /* Frameworks */,
+				CD1599D61A1527150084AA60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RightSpacesSwitcher;
+			productName = RightSpacesSwitcher;
+			productReference = CD1599D81A1527150084AA60 /* RightSpacesSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1599EA1A1527150084AA60 /* RightSpacesSwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1599F81A1527150084AA60 /* Build configuration list for PBXNativeTarget "RightSpacesSwitcherTests" */;
+			buildPhases = (
+				CD1599E71A1527150084AA60 /* Sources */,
+				CD1599E81A1527150084AA60 /* Frameworks */,
+				CD1599E91A1527150084AA60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1599ED1A1527150084AA60 /* PBXTargetDependency */,
+			);
+			name = RightSpacesSwitcherTests;
+			productName = RightSpacesSwitcherTests;
+			productReference = CD1599EB1A1527150084AA60 /* RightSpacesSwitcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1599D01A1527150084AA60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = N/A;
+				TargetAttributes = {
+					CD1599D71A1527150084AA60 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					CD1599EA1A1527150084AA60 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = CD1599D71A1527150084AA60;
+					};
+				};
+			};
+			buildConfigurationList = CD1599D31A1527150084AA60 /* Build configuration list for PBXProject "RightSpacesSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1599CF1A1527150084AA60;
+			productRefGroup = CD1599D91A1527150084AA60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1599D71A1527150084AA60 /* RightSpacesSwitcher */,
+				CD1599EA1A1527150084AA60 /* RightSpacesSwitcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1599D61A1527150084AA60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1599FC1A1527540084AA60 /* right.png in Resources */,
+				CD1599E31A1527150084AA60 /* Images.xcassets in Resources */,
+				CD1599E61A1527150084AA60 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1599E91A1527150084AA60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1599D41A1527150084AA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1599E11A1527150084AA60 /* main.m in Sources */,
+				CD1599DF1A1527150084AA60 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1599E71A1527150084AA60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1599F21A1527150084AA60 /* RightSpacesSwitcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1599ED1A1527150084AA60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1599D71A1527150084AA60 /* RightSpacesSwitcher */;
+			targetProxy = CD1599EC1A1527150084AA60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1599E41A1527150084AA60 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1599E51A1527150084AA60 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1599F31A1527150084AA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD1599F41A1527150084AA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD1599F61A1527150084AA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RightSpacesSwitcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD1599F71A1527150084AA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RightSpacesSwitcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD1599F91A1527150084AA60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RightSpacesSwitcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RightSpacesSwitcher.app/Contents/MacOS/RightSpacesSwitcher";
+			};
+			name = Debug;
+		};
+		CD1599FA1A1527150084AA60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RightSpacesSwitcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RightSpacesSwitcher.app/Contents/MacOS/RightSpacesSwitcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1599D31A1527150084AA60 /* Build configuration list for PBXProject "RightSpacesSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1599F31A1527150084AA60 /* Debug */,
+				CD1599F41A1527150084AA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1599F51A1527150084AA60 /* Build configuration list for PBXNativeTarget "RightSpacesSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1599F61A1527150084AA60 /* Debug */,
+				CD1599F71A1527150084AA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD1599F81A1527150084AA60 /* Build configuration list for PBXNativeTarget "RightSpacesSwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1599F91A1527150084AA60 /* Debug */,
+				CD1599FA1A1527150084AA60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1599D01A1527150084AA60 /* Project object */;
+}
